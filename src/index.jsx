@@ -1,8 +1,8 @@
 import { createRoot } from "react-dom/client"
-import ReactFacts from './ReactFacts.jsx'
+import App from './App'
 
 
 const root = createRoot(document.getElementById("root"))
 root.render(
-    <ReactFacts />
+    <App />
 )
