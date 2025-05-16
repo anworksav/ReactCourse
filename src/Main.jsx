@@ -4,11 +4,11 @@ export default function App() {
     let [count, setCount] = React.useState(0)
 
     function plusClick () {
-        setCount(Number(count+1))
+        setCount(prevCount => prevCount + 1)
     }
 
     function minusClick () {
-        setCount(Number(count-1))
+        setCount(prevCount => prevCount - 1)
     }
 
     return (
