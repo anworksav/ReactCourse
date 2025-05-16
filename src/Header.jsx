@@ -1,11 +1,12 @@
 import './index.css'
+import headerImg from './assets/chef-claude-icon.png'
 
-export default function Navbar() {
+export default function Header() {
     return (
         <header>
-            <nav className='logo-nav'>
-                <img className="logo-img" src="src/assets/Globe.svg" alt="logo"/>
-                <span className="logo-span">my travel journal.</span>
+            <nav className='header-nav'>
+                <img src={headerImg} alt="logo" className='logo-img'/>
+                <p className='logo-name'>Chef Claude</p>
             </nav>
         </header>
     )
